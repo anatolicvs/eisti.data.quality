@@ -27,7 +27,3 @@ Fine-tune configuration maybe achieved by mounting `/spark/conf/spark-defaults.c
 
 - `/spark/work` - directory to use for scratch space and job output logs; only on worker. Can be overridden via `-w path` CLI argument.
 - `/tmp` - directory to use for "scratch" space in Spark, including map output files and RDDs that get stored on disk (`spark.local.dir` setting).
-
-# Authors
-
-- Denis Baryshev (<dennybaa@gmail.com>)
