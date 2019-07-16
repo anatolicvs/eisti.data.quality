@@ -1,5 +1,3 @@
-[![Go to Docker Hub](https://img.shields.io/badge/Docker%20Hub-%E2%86%92-blue.svg)](https://hub.docker.com/r/actionml/spark/) [![](https://images.microbadger.com/badges/version/actionml/spark.svg)](https://microbadger.com/images/actionml/spark) [![](https://images.microbadger.com/badges/image/actionml/spark.svg)](https://microbadger.com/images/actionml/spark)
-
 # Apache Spark docker container image (Standalone mode)
 
 Standalone Spark cluster mode requires a dedicated instance called **master** to coordinate the cluster workloads. Therefore the usage of an additional cluster manager such as Mesos, YARN or Kubernetes is not necessary. However Standalone cluster can be used with all of these cluster managers. Additionally Standalone cluster mode is the most flexible to deliver Spark workloads for Kubernetes, since as of Spark **version 2.4.0** the native Spark Kubernetes support is still very limited.
@@ -27,7 +25,10 @@ Fine-tune configuration maybe achieved by mounting `/spark/conf/spark-defaults.c
 
 - `/spark/work` - directory to use for scratch space and job output logs; only on worker. Can be overridden via `-w path` CLI argument.
 - `/tmp` - directory to use for "scratch" space in Spark, including map output files and RDDs that get stored on disk (`spark.local.dir` setting).
+<<<<<<< HEAD
 
 # Authors
 
 - Aytac Ozkan (<aytac@linux.com>)
+=======
+>>>>>>> a2adfcb6d11ba0d930bcfcbe0fa14e70dfe022b2
