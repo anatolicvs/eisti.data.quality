@@ -30,4 +30,4 @@ Fine-tune configuration maybe achieved by mounting `/spark/conf/spark-defaults.c
 
 # Authors
 
-- Denis Baryshev (<dennybaa@gmail.com>)
+- Aytac Ozkan (<aytac@linux.com>)
